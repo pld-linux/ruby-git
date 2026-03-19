@@ -5,12 +5,12 @@
 %define	pkgname	git
 Summary:	A package for using Git in Ruby code
 Name:		ruby-%{pkgname}
-Version:	1.2.6
+Version:	4.3.1
 Release:	1
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
-# Source0-md5:	85605987c990e53824aed80ad6f1a2b7
+# Source0-md5:	e02f4a13be9de937f3ebd933a7bb590e
 URL:		http://github.com/schacon/ruby-git
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.656
